@@ -1,6 +1,6 @@
-## Plant UML é uma linguagem para ilustrar diagramas de projetos orientados a objetos.
+# Plant UML é uma linguagem para ilustrar diagramas de projetos orientados a objetos.
 
-### Exemplo:
+## Exemplo:
 
 ```
 @startuml Carro
@@ -14,5 +14,47 @@ Carro -- Pessoa : < owns
 ```
 ![](/out/Carro.svg)
 
+
+# Diagrama de casos de uso
+## Requisitos de software
+- Representação das funcionalidades externamente observaveis do sistema
+
+- Dos elementos externos ao sistema que interagem com o mesmo.
+
+## Equipe de clientes (validação)
+- Aprovam o que o sistema deverá fazer
+- Entendem o que o sistema deverá fazer
+
+## Equipe de desenvolvedores
+- Ponto de partida para refinar requisitos de software.
+
+## Podem seguir um desenvolvimento dirigido a casos de uso.
+-  Designer (projetista): encontrar classes
+-  Testadores: usam como base para casos de teste
+
+<br>
+
+# Definindo modelo de caso
+
+```
+
+
+
+```
+
+## Abstração do texto:
+- Texto
+ - Diagrama UML
+
+## Atores:
+- Cliente
+- Caixa Eletrônico
+
+## Funções:
+- Fornecer senha
+- Requisitar senha
+- Validar senha
+- Inserir cartão
+- Realizar saque
 
 
