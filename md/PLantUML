@@ -12,6 +12,8 @@ Carro -- Pessoa : < owns
 
 @enduml
 ```
+
+
 ![](/out/Carro.svg)
 
 
@@ -57,4 +59,43 @@ Carro -- Pessoa : < owns
 - Inserir cartão
 - Realizar saque
 
+## Ligamos os atores pelo sistema
+```
+@startuml Caso de uso
+actor Cliente
+actor CaixaEletronico
 
+Cliente -> CaixaEletronico : Fornecer senha
+CaixaEletronico -> Cliente : Requisitar senha
+CaixaEletronico -> Cliente : Validar senha
+Cliente -> CaixaEletronico : Inserir cartão
+Cliente -> CaixaEletronico : Realizar saque
+@enduml
+```
+
+![](/PLantUML/CasoDeUso.svg)
+
+# Diagrama de atividades
+## Diagrama de fluxo de atividades
+- Representa uma sequência de atividades que ocorrem em um determinado contexto.
+- O contexto é definido por um ator ou uma classe.
+- Cada atividade é um bloco de ações que pode conter sub-atividades.
+- Cada atividade pode ser executada por um ator ou uma classe.
+- Cada atividade pode ser condicional.
+- Cada atividade pode ser repetida.
+- Cada atividade pode ser paralela.
+- Cada atividade pode ser um ponto de extensão.
+- Cada atividade pode ser um ponto de inclusão.
+
+## Diagrama de atividades
+- Representa uma sequência de atividades que ocorrem em um determinado contexto.
+- O contexto é definido por um ator ou uma classe.
+- Cada atividade é um bloco de ações que pode conter sub-atividades.
+- Cada atividade pode ser executada por um ator ou uma classe.
+- Cada atividade pode ser condicional.
+- Cada atividade pode ser repetida.
+- Cada atividade pode ser paralela.
+- Cada atividade pode ser um ponto de extensão.
+- Cada atividade pode ser um ponto de inclusão.
+
+# Exercícios...
